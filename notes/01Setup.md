@@ -1,14 +1,20 @@
+[Angular local setup](https://angular.io/guide/setup-local)
+
+## Current Version : v13.3.0
+
 ## Install
 
 To install Angular on your local system, you need the following:
 
-1.Node.js
+    1.Node.js
 
 ## Angular requires an active LTS or maintenance LTS version of Node.js.
 
 ## Install Angular CLI
 
     >npm install -g @angular/cli
+    >ng help
+    >ng version
 
 ---
 
