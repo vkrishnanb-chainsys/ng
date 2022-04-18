@@ -34,7 +34,11 @@ that are typically co-located in a single source-control repository (such as git
 ## Run the application
 
 ```angular
->ng server --open
+>cd demoa-app
+```
+
+```angular
+>ng serve --open
 ```
 
 The --open option launches the browser, and displays the page
