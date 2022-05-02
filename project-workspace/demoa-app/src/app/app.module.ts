@@ -21,10 +21,13 @@ import { BookCatlogComponent } from './book-catlog/book-catlog.component';
 import { NewsComponent } from './news/news.component';
 import { MenuComponent } from './menu/menu.component';
 import { BookformComponent } from './bookform/bookform.component'
-import {BooksResolver} from './books.resolver'
+import {BooksResolver} from './books.resolver';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { OnchangeBoxComponent } from './onchange-box/onchange-box.component';
 const routes: Routes =[
   {path: '', component: HomeComponent},
   {path: 'news', component: NewsComponent},
+  {path: 'lifecycle', component: LifecycleComponent},
   {path: 'books', component: BookCatlogComponent,
 resolve: {books: BooksResolver}},
   {path: 'addbook', component: BookformComponent},
@@ -36,7 +39,7 @@ resolve: {books: BooksResolver}},
     CustomerFormComponent, CountDisplayComponent, HitButtonComponent,
     CounterAppComponent, EmployeeFormComponent, CustomerReactiveformbComponent,
     BookListComponent, PriceDiscountPipe, BookComponent, TabComponent, BookCatlogComponent,
-    NewsComponent, MenuComponent, BookformComponent
+    NewsComponent, MenuComponent, BookformComponent, LifecycleComponent,OnchangeBoxComponent
   ],
   imports: [
     BrowserModule,
